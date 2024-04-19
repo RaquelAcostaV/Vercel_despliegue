@@ -1,13 +1,9 @@
 {
-    "builds": [{
-        "src": "python_heroku_task/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "Python 3.9"}
-        }],
-    "routes":[
-        {
-            "src": "/(.*)",
-            "dest": "python_heroku_task/wsgi.py"
-        }
-    ]
+  "version": 2,
+  "builds": [
+    { "src": "path/to/your/project", "use": "@vercel/node@1.10.0" }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.7.x" // Reemplaza con la versión de Python que estás utilizando
+  }
 }
