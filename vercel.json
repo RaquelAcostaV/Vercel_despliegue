@@ -4,6 +4,6 @@
     { "src": "python_heroku_task/wsgi.py", "use": "@vercel/python" }
   ],
   "env": {
-    "PYTHON_VERSION": "3.7.9"
+    "PYTHON_VERSION": "3.9.7"
   }
 }
