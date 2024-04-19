@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "path/to/your/project", "use": "@vercel/node@1.10.0" }
+    { "src": "python_heroku_task/wsgi.py", "use": "@vercel/node@1.10.0" }
   ],
   "env": {
-    "PYTHON_VERSION": "3.7.x" // Reemplaza con la versión de Python que estás utilizando
+    "PYTHON_VERSION": "3.7.9"
   }
 }
